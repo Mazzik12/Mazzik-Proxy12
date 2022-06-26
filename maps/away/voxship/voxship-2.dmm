@@ -261,7 +261,6 @@
 /area/voxship/scavship)
 "aM" = (
 /obj/effect/decal/cleanable/filth,
-/obj/random/junk,
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
 "aN" = (
