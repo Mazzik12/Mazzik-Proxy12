@@ -9166,6 +9166,9 @@
 	icon_state = "4-8";
 	pixel_x = 0
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/vacant/prototype/control)
 "vj" = (
@@ -16171,6 +16174,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
+"PN" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/vacant/prototype/control)
 "PO" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -17515,6 +17527,7 @@
 	output_tag = null
 	},
 /obj/effect/floor_decal/corner/yellow,
+/obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/monotile,
 /area/vacant/prototype/control)
 "Uh" = (
@@ -17714,6 +17727,9 @@
 /obj/machinery/light_switch{
 	pixel_x = 22;
 	pixel_y = 24
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/vacant/prototype/control)
@@ -18305,15 +18321,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/engineering/engine_smes)
-"WQ" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/vacant/prototype/control)
 "WR" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -31160,7 +31167,7 @@ tj
 xR
 yf
 yf
-WQ
+PN
 qk
 ZH
 yf
