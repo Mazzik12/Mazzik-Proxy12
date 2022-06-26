@@ -919,6 +919,16 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	dir = 4;
+	frequency = 1331;
+	id_tag = "charon_shuttle";
+	pixel_x = 9;
+	pixel_y = 9;
+	req_access = list("ACCESS_TORCH_CREW");
+	tag_exterior_sensor = "charon_shuttle_sensor_external"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/exploration_shuttle/cockpit)
 "bT" = (
@@ -11160,7 +11170,6 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline,
-/obj/machinery/firealarm,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "AK" = (

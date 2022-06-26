@@ -7158,6 +7158,10 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -28
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/assembly/chargebay)
 "auP" = (
@@ -14491,14 +14495,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -21;
-	pixel_y = 0
-	},
 /turf/simulated/floor/tiled/monotile,
 /area/assembly/chargebay)
 "byb" = (
