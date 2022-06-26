@@ -11054,9 +11054,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/foreport)
-"aMT" = (
-/turf/simulated/wall/prepainted,
-/area/security/storage)
 "aMV" = (
 /obj/structure/disposalpipe/up,
 /obj/effect/floor_decal/industrial/warning,
@@ -15182,7 +15179,7 @@
 /obj/structure/sign/warning/secure_area{
 	dir = 1
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/r_wall/prepainted,
 /area/security/armoury)
 "ctb" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
@@ -37805,7 +37802,7 @@ cZi
 cZi
 aLv
 pxv
-tiQ
+sHN
 aOE
 kSs
 etI
@@ -38007,7 +38004,7 @@ cZi
 cZi
 aLv
 iLA
-tiQ
+sHN
 hLf
 aPu
 aPu
@@ -38405,7 +38402,7 @@ ehZ
 kiR
 dZx
 daB
-aMT
+xCS
 gGO
 daN
 aKw
@@ -38607,13 +38604,13 @@ jcg
 jcg
 jcg
 oSD
-aMT
+xCS
 kss
 tZR
 hUc
 aLx
 kCN
-tiQ
+sHN
 aOF
 oXx
 qyX
@@ -38809,13 +38806,13 @@ cor
 cor
 cor
 suM
-aMT
+xCS
 ujx
 uRO
 enM
 aLy
 aMC
-tiQ
+sHN
 hLf
 aPu
 aPu
@@ -39011,13 +39008,13 @@ aCu
 aCu
 aCu
 aex
-aMT
+xCS
 lRa
 cxk
 aKy
 aLz
 jft
-tiQ
+sHN
 aOG
 jhf
 lcI
@@ -39213,15 +39210,15 @@ aCv
 aCv
 aCv
 hGs
-aMT
+xCS
 mfg
 hbP
-aMT
-aMT
-aMT
-tiQ
-tiQ
-tiQ
+xCS
+xCS
+xCS
+sHN
+sHN
+sHN
 sHN
 sHN
 tAS
@@ -43664,7 +43661,7 @@ aIn
 wAK
 sMf
 bhL
-aBb
+aGP
 jei
 qCs
 tAS
@@ -43866,7 +43863,7 @@ aGP
 aGP
 aGP
 aGP
-aBb
+aGP
 aPC
 aQA
 tAS

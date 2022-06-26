@@ -9201,11 +9201,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/vacant/prototype/control)
 "vl" = (
@@ -10492,15 +10487,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
-"zo" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/vacant/prototype/control)
 "zr" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -18527,6 +18513,15 @@
 /obj/item/tank/nitrogen,
 /turf/simulated/floor/tiled,
 /area/engineering/engineering_bay)
+"Xx" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/vacant/prototype/control)
 "Xy" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 4;
@@ -31170,7 +31165,7 @@ tj
 xR
 yf
 yf
-zo
+Xx
 qk
 ZH
 yf
